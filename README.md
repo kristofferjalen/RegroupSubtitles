@@ -75,11 +75,9 @@ baz
 
 ```
 regroupsubtitles.exe path searchPattern
-
 ```
 
 **Example:**
 ```
 regroupsubtitles.exe "C:\Temp" "*.srt"
-
 ```

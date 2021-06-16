@@ -6,8 +6,6 @@ namespace RegroupSubtitles
     {
         private static void Main(string[] args)
         {
-            args = new[] { @"C:\Users\Kristoffer\Source\Repos\ConsoleApp2\ConsoleApp2\bin\Debug\net5.0", "*.srt" };
-
             var paths = Directory.GetFiles(args[0], args[1]);
 
             foreach (var path in paths)
